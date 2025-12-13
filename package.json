@@ -1,0 +1,38 @@
+{
+  "name": "ts-dev",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "commitlint": "commitlint --edit",
+    "prepare": "simple-git-hooks"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.17.1",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "devDependencies": {
+    "vite": "catalog:cli",
+    "lint-staged": "catalog:cli",
+    "@types/node": "catalog:types",
+    "tsx": "catalog:cli",
+    "typescript": "catalog:cli",
+    "eslint": "catalog:cli",
+    "simple-git-hooks": "catalog:cli",
+    "@commitlint/cli": "catalog:cli",
+    "@commitlint/config-conventional": "catalog:cli",
+    "@commitlint/types": "catalog:types"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged",
+    "commit-msg": "pnpm commitlint $1"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
+}
