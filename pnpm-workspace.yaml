@@ -23,7 +23,7 @@ catalogs:
     tsdown: ^0.17.3
     tsx: ^4.21.0
     typescript: ^5.9.3
-    vite: ^7.2.7
+    vite: ^8.0.0-beta.2
   vue:
     'vue-router': ^4.2.2
   inlined:

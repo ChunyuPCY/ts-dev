@@ -1,12 +1,8 @@
 {
   "folders": [
     {
-      "name": "@pcy/tsconfig",
+      "name": "@mono/tsconfig",
       "path": "internal/tsconfig"
-    },
-    {
-      "name": "@pcy/types",
-      "path": "packages/types",
     },
   ]
 }
