@@ -1,5 +1,8 @@
 {
   "recommendations": [
-    "antfu.pnpm-catalog-lens"
+    "antfu.pnpm-catalog-lens",
+    "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens",
+    "dbaeumer.vscode-eslint"
   ]
 }
