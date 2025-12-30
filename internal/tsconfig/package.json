@@ -8,6 +8,7 @@
     "base.json",
     "library.json",
     "node.json",
+    "react.json",
     "web.json"
   ]
 }

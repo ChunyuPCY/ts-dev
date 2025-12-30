@@ -6,6 +6,7 @@
     "composite": false,
     "lib": ["ESNext"],
     "baseUrl": "./",
+    "moduleResolution": "node",
     "types": ["node"],
     "noImplicitAny": true
   }
