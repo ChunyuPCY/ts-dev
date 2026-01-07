@@ -3,6 +3,7 @@
 TODO list:
 
 internal:
+
 - [x] tsconfig
 - [ ] lint
 - [ ] formatter
@@ -12,5 +13,6 @@ internal:
 - [ ] git hooks
 
 app:
+
 - [ ] layout
 - [ ] home page
