@@ -32,13 +32,15 @@ h1 {
   position: relative;
 }
 
+/* 自定义属性 */
 @property --angle {
   syntax: '<angle>';
   initial-value: 0deg;
   inherits: false;
 }
 
-.card::after, .card::before {
+.card::after,
+.card::before {
   content: "";
   position: absolute;
   background-image: conic-gradient(from var(--angle), #ff4545,
